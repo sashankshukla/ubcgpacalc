@@ -27,6 +27,8 @@
         width: 384px;
       }
 
+      
+
       h1 {
         font-family: "Menlo", monospace;
         font-size: 22px;
@@ -56,7 +58,12 @@
         vertical-align: text-bottom;
         margin-right: 12px;
       }
-
+      .button{
+          color : white;
+          background-color : #2f5876;
+          border: 2 px solid #2f5876;
+          border-radius: 5px;
+      }
       .version {
         color: #444;
         font-size: 18px;
@@ -102,7 +109,7 @@
             <input type="number" id="grade" name="grade" ><br>
             <label for="credits">Credit earned:</label><br>
             <input type="number" id="credits" name="credits"><br><br>
-            <input type="submit" value="Calculate GPA">
+            <input class="button" type="submit" value="Calculate GPA">
           </form> 
     </div>
 </body>
