@@ -5,8 +5,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UBC GPA Calculator</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <style>
+        html,
+      body {
+        background-color: #161c25;
+        color: rgba(255, 255, 255, 0.719);
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 384px;
+      }
+    
+    input{
+        background-color: rgb(247, 241, 241);
+        border-radius: 5px;
+        padding-top: 3px;
+    }
+      
+
+      h1 {
+        font-family: "Menlo", monospace;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: rgba(255, 255, 255, 0.719);
+      }
+
+      img {
+        width: 30px;
+      }
+
+      p{
+          font-weight: bold;
+      }
+
+      .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+
+      .modal-input {
+        padding: 0px 22px;
+      }
+      .modal-content {
+        padding: 0px 22px;
+      }
+
+      .logo {
+        padding: 16px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+
+      .button{
+          color : rgba(255, 255, 255, 0.89);
+          background-color : rgb(35, 78, 250);
+          border: 5px solid  rgb(35, 78, 250);
+          border-radius: 2px;
+      }
+      .button:hover{
+          background-color: rgb(27, 59, 187);
+          border: 5px solid rgb(27, 59, 187);
+      }
+      .version {
+        color: rgba(255, 255, 255, 0.336);
+        font-size: 18px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px;
+      }
+
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+      }
+
+      .flex:hover {
+        opacity: 0.4;
+      }
+
+      .flex .fa {
+        font-size: 40px;
+        color: #2f5876;
+      }
+    </style>
+    
+    <script src="script.js"></script>
 </head>
 <body>
-    
+    <div class="modal-header">
+        <h1 class="logo">
+          <img class="logo-icon" src="images/traversy-logo.png" /> UBC GPA Calculator
+          <span class="version">v1.0.0</span>
+        </h1>
+    </div>
+    <div class="modal-content">
+        <p>Input your 100 point scale grades and credits for your courses in a UBC session and get your 4.0 scale GPA</p>
+    </div>
+    <div class="modal-input">
+        <form class="form" onsubmit="return false">
+            <label for="grade">Enter % grades (space seperated):</label><br>
+            <input type="text" id="grade" name="grade" ><br><br>
+            <label for="credits">Enter credits in above order (space seperated):</label><br>
+            <input type="text" id="credits" name="credits"><br><br>
+            <button onclick=calculate() id="button" class="button">Calculate GPA</button>
+          </form> 
+          <p id="demo">Your GPA is : </p>
+    </div>
 </body>
 </html>
