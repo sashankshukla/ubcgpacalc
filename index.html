@@ -19,6 +19,8 @@
     <style>
         html,
       body {
+        background-color: #161c25;
+        color: rgba(255, 255, 255, 0.719);
         font-family: "Open Sans", sans-serif;
         font-size: 14px;
         margin: 0;
@@ -26,7 +28,12 @@
         padding: 0;
         width: 384px;
       }
-
+    
+    input{
+        background-color: rgb(247, 241, 241);
+        border-radius: 5px;
+        padding-top: 3px;
+    }
       
 
       h1 {
@@ -34,11 +41,15 @@
         font-size: 22px;
         font-weight: 400;
         margin: 0;
-        color: #2f5876;
+        color: rgba(255, 255, 255, 0.719);
       }
 
       img {
         width: 30px;
+      }
+
+      p{
+          font-weight: bold;
       }
 
       .modal-header {
@@ -63,13 +74,17 @@
       }
 
       .button{
-          color : white;
-          background-color : #2f5876;
-          border: 2 px solid #2f5876;
-          border-radius: 5px;
+          color : rgba(255, 255, 255, 0.89);
+          background-color : rgb(35, 78, 250);
+          border: 5px solid  rgb(35, 78, 250);
+          border-radius: 2px;
+      }
+      .button:hover{
+          background-color: rgb(27, 59, 187);
+          border: 5px solid rgb(27, 59, 187);
       }
       .version {
-        color: #444;
+        color: rgba(255, 255, 255, 0.336);
         font-size: 18px;
       }
 
@@ -111,7 +126,7 @@
         <form class="form" onsubmit="return false">
             <label for="grade">Enter % grades (space seperated):</label><br>
             <input type="text" id="grade" name="grade" ><br><br>
-            <label for="credits">Enter credits by course (space seperated):</label><br>
+            <label for="credits">Enter credits in above order (space seperated):</label><br>
             <input type="text" id="credits" name="credits"><br><br>
             <button onclick=calculate() id="button" class="button">Calculate GPA</button>
           </form> 
