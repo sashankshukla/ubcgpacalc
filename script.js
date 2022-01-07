@@ -4,6 +4,10 @@ function calculate(){
     let grades_arr = grades.split(" ");
     let credits_arr = credits.split(" ");
    
+    if(grades_arr.length != credits_arr.length){
+        document.getElementById("demo").innerHTML = "The number of grades and credits are unequal";
+        return;
+    }
     // map with 100 scale to 4.0 scale conversions
     const convert = new Map([
        [100 , 4.33], [99 , 4.33], [98 , 4.33], 
@@ -46,5 +50,10 @@ function calculate(){
         let weight = (curr_credit/total_credits);
         avg += (weight*curr_grade);
     }
-    document.getElementById("demo").innerHTML = avg;
+
+    if(isNaN(avg)){
+        document.getElementById("demo").innerHTML = "You did not enter any grades or credits"
+    }
+    else{
+    document.getElementById("demo").innerHTML = "Your GPA is: " + avg.toFixed(2);}
 }
