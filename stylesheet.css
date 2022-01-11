@@ -27,6 +27,8 @@ h1 {
 
 img {
   width: 20px;
+  height: 20px;
+  margin-top: 10px;
   margin-left: 10px;
 }
 
@@ -58,13 +60,12 @@ img {
 .button{
     color : rgba(255, 255, 255, 0.89);
     background-color : rgb(35, 78, 250);
-    border: 2px solid  rgb(35, 78, 250);
+    border: 1px solid  rgb(35, 78, 250);
     border-radius: 14px;
-    padding: 2px 2px;
 }
 .button:hover{
     background-color: rgb(27, 59, 187);
-    border: 2px solid rgb(27, 59, 187);
+    border: 1px solid rgb(27, 59, 187);
 }
 .version {
   color: rgba(255, 255, 255, 0.336);
