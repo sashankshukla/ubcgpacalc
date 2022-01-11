@@ -3,11 +3,11 @@ body {
   background-color: #161c25;
   color: rgba(255, 255, 255, 0.719);
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 10px;
   margin: 0;
   min-height: 180px;
   padding: 0;
-  width: 384px;
+  width: 300px;
 }
 
 input{
@@ -19,14 +19,15 @@ input{
 
 h1 {
   font-family: "Menlo", monospace;
-  font-size: 22px;
+  font-size: 13px;
   font-weight: 400;
   margin: 0;
   color: rgba(255, 255, 255, 0.719);
 }
 
 img {
-  width: 30px;
+  width: 20px;
+  margin-left: 10px;
 }
 
 .demo{
@@ -46,28 +47,28 @@ img {
 }
 
 .logo {
-  padding: 16px;
+  padding: 5px;
 }
 
 .logo-icon {
   vertical-align: text-bottom;
-  margin-right: 12px;
+  margin-right: 5px;
 }
 
 .button{
     color : rgba(255, 255, 255, 0.89);
     background-color : rgb(35, 78, 250);
-    border: 5px solid  rgb(35, 78, 250);
+    border: 2px solid  rgb(35, 78, 250);
     border-radius: 14px;
-    padding: 4px 10px;
+    padding: 2px 2px;
 }
 .button:hover{
     background-color: rgb(27, 59, 187);
-    border: 5px solid rgb(27, 59, 187);
+    border: 2px solid rgb(27, 59, 187);
 }
 .version {
   color: rgba(255, 255, 255, 0.336);
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .flex-container {
