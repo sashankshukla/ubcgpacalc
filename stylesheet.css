@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #161c25;
+  background-color: rgb(33,33,33);
   color: rgba(255, 255, 255, 0.719);
   font-family: "Open Sans", sans-serif;
   font-size: 10px;
@@ -11,9 +11,10 @@ body {
 }
 
 input{
-  background-color: rgb(247, 241, 241);
+  background-color: rgb(190, 186, 186);
   border-radius: 5px;
   padding-top: 3px;
+  border-bottom: 2px solid rgb(183, 134, 254);
 }
 
 
@@ -33,12 +34,14 @@ img {
 }
 
 .demo{
+    font-size: 12px;
     font-weight: bold;
 }
 
 .modal-header {
+  background-color: rgb(18,18,18);
   align-items: center;
-  border-bottom: 0.5px solid #dadada;
+  border-bottom: 0.5px solid rgb(183, 134, 254);
 }
 
 .modal-input {
@@ -58,14 +61,15 @@ img {
 }
 
 .button{
-    color : rgba(255, 255, 255, 0.89);
-    background-color : rgb(35, 78, 250);
-    border: 1px solid  rgb(35, 78, 250);
-    border-radius: 14px;
+    color : rgb(183, 134, 254);
+    background-color : rgb(33,33,33);
+    border: 0.5px solid  darkgray;
+    border-radius: 6px;
 }
 .button:hover{
-    background-color: rgb(27, 59, 187);
-    border: 1px solid rgb(27, 59, 187);
+    color: white;
+    background-color: rgb(130, 92, 184);
+    border: 1px solid rgb(130, 92, 184);
 }
 .version {
   color: rgba(255, 255, 255, 0.336);
