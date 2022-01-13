@@ -14,7 +14,7 @@ input{
   background-color: rgb(190, 186, 186);
   border-radius: 5px;
   padding-top: 3px;
-  border-bottom: 2px solid rgb(183, 134, 254);
+  border-bottom: 2px solid rgb(83,222,203);
 }
 
 
@@ -41,7 +41,7 @@ img {
 .modal-header {
   background-color: rgb(18,18,18);
   align-items: center;
-  border-bottom: 0.5px solid rgb(183, 134, 254);
+  border-bottom: 0.5px solid rgb(83,222,203);
 }
 
 .modal-input {
@@ -61,15 +61,15 @@ img {
 }
 
 .button{
-    color : rgb(183, 134, 254);
+    color : rgb(83,222,203);
     background-color : rgb(33,33,33);
-    border: 0.5px solid  darkgray;
+    border: 0.5px solid  gray;
     border-radius: 6px;
 }
 .button:hover{
-    color: white;
-    background-color: rgb(130, 92, 184);
-    border: 1px solid rgb(130, 92, 184);
+    color: black;
+    background-color: rgb(83,222,203);
+    border: 1px solid rgb(83,222,203);
 }
 .version {
   color: rgba(255, 255, 255, 0.336);
