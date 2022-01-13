@@ -7,4 +7,3 @@ CV's , portfolios and LinkedIn.
 
 The tool takes away the pain of having to switch to tabs to see the conversion scale, open calculators and overall waste a lot of valuable time. Students can just input values whilst being on the grades summary page and receive a GPA.
 
-The next version I hope to develop can hopefully implement web scraping of the grades page directly, such that even the inputting of the data fields is removed.
