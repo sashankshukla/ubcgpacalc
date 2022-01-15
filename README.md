@@ -1,3 +1,5 @@
+Avaiable on the chrome web store : [UBC GPA Calculator](https://chrome.google.com/webstore/detail/ubc-gpa-calculator/hflhpnifkonoajnjhbniofgkchijncdj?utm_source=googleads&utm_medium=adgroup5&utm_campaign=adgroup5&utm_id=adgroup5&gclid=CjwKCAiA_omPBhBBEiwAcg7smZEO9c_V2eYCU7lxxh2p0XfzHbZb_IPmZ970AePXOVYzh865AOry7BoC3qAQAvD_BwE)
+
 This first version of this chrome extension allows UBC students to
 
 - input their course grades on the 100 point scale
