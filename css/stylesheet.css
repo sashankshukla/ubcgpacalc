@@ -1,0 +1,81 @@
+html,
+body {
+  background-color: rgb(223,237,253);
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  margin: 0;
+  min-height: 180px;
+  padding: 0;
+  width: 300px;
+}
+
+input{
+  background-color: white;
+  border-radius: 5px;
+  padding-top: 3px;
+}
+
+
+h1 {
+  font-family: "Menlo", monospace;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.719);
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.demo{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.modal-header {
+  background-color: rgb(5,34,70);
+  align-items: center;
+  border-bottom: 0.5px solid white;
+}
+
+.modal-input {
+  padding: 0px 22px;
+}
+.modal-content {
+  padding: 0px 22px;
+}
+
+.logo {
+  padding: 5px;
+}
+
+.logo-icon {
+  vertical-align: text-bottom;
+  margin-right: 5px;
+}
+
+.button{
+    color: lightgray;
+    background-color : rgb(16,106,216);
+    border-radius: 6px;
+    border: 1px solid rgb(16,106,216);
+}
+.button:hover{
+    color: white;
+    background-color: rgb(16,106,216);
+}
+.version {
+  color: rgba(255, 255, 255, 0.336);
+  font-size: 12px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 22px;
+}
