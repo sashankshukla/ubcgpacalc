@@ -1,7 +1,7 @@
 html,
 body {
-  background-color: rgb(33,33,33);
-  color: rgba(255, 255, 255, 0.719);
+  background-color: rgb(223,237,253);
+  color: black;
   font-family: "Open Sans", sans-serif;
   font-size: 10px;
   margin: 0;
@@ -11,10 +11,9 @@ body {
 }
 
 input{
-  background-color: rgb(190, 186, 186);
+  background-color: white;
   border-radius: 5px;
   padding-top: 3px;
-  border-bottom: 2px solid rgb(83,222,203);
 }
 
 
@@ -39,9 +38,9 @@ img {
 }
 
 .modal-header {
-  background-color: rgb(18,18,18);
+  background-color: rgb(5,34,70);
   align-items: center;
-  border-bottom: 0.5px solid rgb(83,222,203);
+  border-bottom: 0.5px solid white;
 }
 
 .modal-input {
@@ -61,15 +60,14 @@ img {
 }
 
 .button{
-    color : rgb(83,222,203);
-    background-color : rgb(33,33,33);
-    border: 0.5px solid  gray;
+    color: lightgray;
+    background-color : rgb(16,106,216);
     border-radius: 6px;
+    border: 1px solid rgb(16,106,216);
 }
 .button:hover{
-    color: black;
-    background-color: rgb(83,222,203);
-    border: 1px solid rgb(83,222,203);
+    color: white;
+    background-color: rgb(16,106,216);
 }
 .version {
   color: rgba(255, 255, 255, 0.336);
